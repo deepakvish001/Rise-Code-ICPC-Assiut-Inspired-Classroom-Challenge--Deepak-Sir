@@ -1,0 +1,12 @@
+# M. Capital or Small or Digit
+
+X = input()
+# Check karo digit hai ya alphabet
+if X.isdigit():
+    print("IS DIGIT")
+else:
+    print("ALPHA")
+    if X.isupper():
+        print("IS CAPITAL")
+    else:
+        print("IS SMALL")
